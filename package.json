@@ -1,0 +1,48 @@
+{
+  "name": "vite-r3f-demos",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A simple React Three Fiber + Vite starter with an import-ready CodeSandbox config.",
+  "keywords": [
+    "r3f",
+    "react",
+    "three",
+    "vite",
+    "starter",
+    "react three fiber",
+    "sandbox",
+    "codesandbox"
+  ],
+  "author": "start50dev@gmail.com (https://github.com/start50dev)",
+  "repository": "github:start50dev/vite-r3f-demos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "sandbox": "APP_ENV=sandbox vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.2.0",
+    "@react-three/fiber": "^8.0.10",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "three": "^0.139.2",
+    "three-stdlib": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "@types/three": "^0.139.0",
+    "@vitejs/plugin-react": "1.3.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
